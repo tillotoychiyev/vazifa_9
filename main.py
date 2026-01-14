@@ -25,3 +25,10 @@ print("_________ 4-topshiriq ____________")
 ism_list = ["Toxir", "Aziz", "Vali"]
 res = list(map(lambda value: (value, len(value)), ism_list))
 print(res)
+
+print("__________________________________")
+print("_________ 5-topshiriq ____________")
+
+numbers = [-5, 3, -2, 7, -10, 0]
+result = list(map(lambda x: -x if x < 0 else x, numbers))
+print(result)
