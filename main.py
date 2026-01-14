@@ -12,3 +12,9 @@ numbers = [1,2,3,4]
 k_num = list(map(lambda value: value ** 2, numbers))
 print(k_num)
 
+print("__________________________________")
+print("_________ 3-topshiriq ____________")
+
+satrlar = ["salom", "dunyo", "hello", "world"]
+uppers = list(map(lambda value: value.upper(), satrlar))
+print(uppers)
