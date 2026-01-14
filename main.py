@@ -18,3 +18,10 @@ print("_________ 3-topshiriq ____________")
 satrlar = ["salom", "dunyo", "hello", "world"]
 uppers = list(map(lambda value: value.upper(), satrlar))
 print(uppers)
+
+print("__________________________________")
+print("_________ 4-topshiriq ____________")
+
+ism_list = ["Toxir", "Aziz", "Vali"]
+res = list(map(lambda value: (value, len(value)), ism_list))
+print(res)
