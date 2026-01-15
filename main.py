@@ -91,12 +91,12 @@ print(names_res)
 
 print("__________________________________")
 print("__________ 14-topshiriq __________")
-numbers_list = [1,-2,3,-4,5,-6,0,7,-8,9,10]
+numbers_list = [-1,2,-3,4,-5,6,0,-7,8,-9,10]
 res_num_list = list(filter(lambda value: value>=0, numbers_list))
 print(res_num_list)
 
 print("__________________________________")
 print("__________ 15-topshiriq __________")
-words_list = ["hello world","salom python", "salom dunyo", "print python "]
+words_list = ["hello world","salom python", "salom dunyo", "print python"]
 words_list_res = list(filter(lambda value: "python" in value, words_list))
 print(words_list_res)
